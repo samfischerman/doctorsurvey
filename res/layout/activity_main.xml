@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/Tracking" />
+
+    <Spinner
+        android:id="@+id/spnTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTracking"
+        android:entries="@array/arrTracking"
+        android:prompt="@string/strTrackingPrompt" />
+
+    <TextView
+        android:id="@+id/txtObserver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spnTracking"
+        android:text="@string/Observer" />
+
+    <Spinner
+        android:id="@+id/spnObserver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtObserver"
+        android:entries="@array/arrObservers"
+        android:prompt="@string/strObserverPrompt" />
+    
+    <TextView
+        android:id="@+id/txtSurvey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spnObserver"
+        android:text="@string/Survey" />
+    
+    <Spinner
+        android:id="@+id/spnSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtSurvey"
+        android:entries="@array/arrSurvey"
+        android:prompt="@string/strSurveyPrompt" />
+
+    <Button
+        android:id="@+id/btnBeginSurvey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spnSurvey"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="58dp"
+        android:text="@string/strBeginSurvey" />
+    
+</RelativeLayout>

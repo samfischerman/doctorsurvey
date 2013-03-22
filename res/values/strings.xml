@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doctor Survey</string>
+    <string name="Tracking">Tracking</string>
+    <string name="Survey">Survey</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Observer">Observer</string>
+    
+    <string-array name="arrTracking">
+        <item >Dr. One</item>
+        <item >Dr. Two</item>
+        <item >Dr. Three</item>
+    </string-array>
+    
+    <string-array name="arrObservers">
+        <item >Student One</item>
+        <item >Student Two</item>
+        <item >Student Three</item>
+        <item >Student Four</item>
+    </string-array>
+    
+    <string-array name="arrActivities">
+        <item >Walking</item>
+        <item >On the phone</item>
+        <item >Researching</item>
+        <item >With a patient</item>
+        <item >Reviewing Files</item>
+        <item >Talking with Nurses/Doctors</item>
+        <item >Taking a break</item>
+        <item >Restroom</item>
+    </string-array>
+    
+ 	<string-array name="arrSurvey">
+ 	    <item>Survey 1</item>
+ 	</string-array>
+    
+    <string name="strTrackingPrompt">Choose a Shadow</string>
+    <string name="strObserverPrompt">Who are you?</string>
+    <string name="strSurveyPrompt">Choose a Survey</string>
+    
+    <string name="strBeginSurvey">Begin Survey</string>
+
+</resources>
